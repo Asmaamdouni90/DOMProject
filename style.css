@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Work+Sans:wght@200;300&display=swap");
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 1px 4px rgba(170, 163, 170, 0.831);
+  z-index: 100;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.container {
+  max-width: 1068px;
+  margin: auto;
+  width: 100%;
+  background: white;
+}
+#cart-iconnav {
+  font-size: 1.8rem;
+  padding: 20px;
+  box-shadow: -2px 0 4px rgba(238, 5, 121, 0.1);
+  fill: rgb(242, 17, 178);
+  cursor: pointer;
+}
+
+.shop-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  gap: 5rem;
+  /*border: 1px solid rgb(147, 216, 20);*/
+  width: 1100px;
+  margin-left: 140px;
+}
+.proditem {
+  position: relative;
+}
+.proditem:hover {
+  padding: 10px;
+  border: 1px;
+  transition: 0.4s;
+}
+
+.totalprice {
+  /* border: 1px solid rgb(49, 20, 216);*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.logototal {
+  /* border: 1px solid rgb(49, 20, 216);*/
+  width: 300px;
+  height: 100px;
+  display: flex;
+  /*flex-direction: column;*/
+}
+#articles {
+  width: 180px;
+  height: 280px;
+  /* border: 1px solid rgb(216, 20, 151);*/
+  padding-left: 50px;
+  margin-top: 10px;
+}
+#item_1,
+#item_2,
+#item_3,
+#item_4,
+#item_5,
+#item_6 {
+  border: 1px solid rgb(216, 20, 151);
+  width: 280px;
+  height: 450px;
+  border-radius: 10px;
+}
+
+#item_1_qty,
+#item_2_qty,
+#item_3_qty,
+#item_4_qty,
+#item_5_qty,
+#item_6_qty {
+  font-size: 20px;
+  color: rgb(251, 111, 148);
+}
+
+.remove {
+  position: absolute;
+  bottom: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  fill: rgb(100, 37, 100);
+  width: 25px;
+  height: 25px;
+}
+.heart {
+  /*border: 1px solid rgb(216, 20, 151);*/
+  padding-left: 155px;
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+  color: rgb(251, 111, 148);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+h2 {
+  font-size: 20px;
+  color: rgba(243, 22, 210, 0.831);
+  text-align: center;
+}
+h3 {
+  color: rgb(100, 37, 100);
+  text-align: center;
+}
+h4 {
+  color: rgba(228, 9, 148, 0.943);
+  margin-top: 180px;
+  font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+h5 {
+  color: rgb(100, 37, 100);
+  text-align: center;
+  margin-top: -60px;
+  font-size: 30px;
+}
+.vet {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.plus {
+  color: rgba(243, 22, 210, 0.831);
+  margin-left: 30px;
+}
+.minus {
+  color: rgb(83, 51, 83);
+}
+
+.footer {
+  margin-top: 130px;
+  justify-items: center;
+}
+#footerlogo {
+  margin-top: 40px;
+  display: flex;
+  margin-left: 480px;
+}
+#truck {
+  margin-top: 15px;
+    fill: rgb(100, 37, 100);
+
+}

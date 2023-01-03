@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SiteShopping</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!--header-->
+    <header>
+      <!--nav-->
+      <div class="nav container">
+
+        <img src="./logo1.jpg" alt="img" width="400px" height="100px" />
+        <div class="totalprice">
+          <div class="logototal">
+            <img src="./logo.png" alt="img" width="220px" height="100px" />
+            <h1>
+              TOTAL
+              <span id="total">0</span>DT
+            </h1>
+          </div>
+        </div>
+        <!--carte-icone-->
+
+        
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+          width="40px"
+          ;
+          height=" 30px"
+          ;
+          id="cart-iconnav"
+          class="btn btn-success vider"
+        >
+          <path
+            d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64v48H160V112zm-48 48H48c-26.5 0-48 21.5-48 48V416c0 53 43 96 96 96H352c53 0 96-43 96-96V208c0-26.5-21.5-48-48-48H336V112C336 50.1 285.9 0 224 0S112 50.1 112 112v48zm24 96c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24zm200-24c0 13.3-10.7 24-24 24s-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24z"
+          />
+        </svg>
+      </div>
+    </header>
+    <!--main-->
+    <main>
+      <div class="vet">
+        <h4>Consultez Votre Panier</h4>
+        <h5>Découvrez les produits nouveaux et tendances!</h5>
+
+        <br />
+        <br />
+      </div>
+
+      <div class="shop-content">
+        <!--item1-->
+        <div class="proditem" id="item_1">
+          <svg
+            class="bx bxs-trash-alt remove"
+            name="item_1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <path
+              d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"
+            />
+          </svg>
+          <img id="articles" src="./p1.jpg" class="product-img" />
+          <h2 class="product_name" id="item_1_name">Foulard Chiffon 1.5m</h2>
+
+          <h3 class="price"><span id="item_1_price">28</span>DT</h3>
+          <button type="button" class="btn btn-success plus" name="item_1">
+            +
+          </button>
+          <span class="product-quantity" id="item_1_qty">0</span>
+
+          <button
+            type="button"
+            class="btn btn-danger minus"
+            name="item_1"
+            width="170px"
+            height="60px"
+          >
+            -
+          </button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            class="heart"
+            fill="grey"
+            name="item_1"
+            width="30px"
+            height="30px"
+          >
+            <path
+              d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"
+            />
+          </svg>
+        </div>
+
+        <!--item2-->
+
+        <div class="proditem" id="item_2">
+          <svg
+            class="bx bxs-trash-alt remove"
+            name="item_2"
+            width="20px"
+            ;
+            height=" 20px"
+            ;xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <path
+              d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"
+            />
+          </svg>
+          <img id="articles" src="./p2.jpg" class="product-img" />
+          <h2 class="product_name" id="item_2_name">Foulard mousseline 1.5m</h2>
+          <h3 class="price"><span id="item_2_price">18</span>DT</h3>
+          <button type="button" class="btn btn-success plus" name="item_2">
+            +
+          </button>
+          <span class="product-quantity" id="item_2_qty">0</span>
+          <button type="button" class="btn btn-danger minus" name="item_2">
+            -
+          </button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            class="heart"
+            fill="grey"
+            name="item_2"
+            width="50px"
+            height="50px"
+          >
+            <path
+              d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"
+            />
+          </svg>
+        </div>
+        <!--item3-->
+
+        <div class="proditem" id="item_3">
+          <svg
+            class="bx bxs-trash-alt remove"
+            name="item_3"
+            width="20px"
+            ;
+            height=" 20px"
+            ;xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <path
+              d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"
+            />
+          </svg>
+
+          <img id="articles" src="./p3.jpg" class="product-img" />
+          <h2 class="product_name" id="item_3_name">Foulard mousseline 2m</h2>
+          <h3 class="price"><span id="item_3_price">25</span>DT</h3>
+          <button type="button" class="btn btn-success plus" name="item_3">
+            +
+          </button>
+          <span class="product-quantity" id="item_3_qty">0</span>
+          <button type="button" class="btn btn-danger minus" name="item_3">
+            -
+          </button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            class="heart"
+            fill="grey"
+            name="item_1"
+            width="50px"
+            height="50px"
+          >
+            <path
+              d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"
+            />
+          </svg>
+        </div>
+        <!--item4-->
+
+        <div class="proditem" id="item_4">
+          <svg
+            class="bx bxs-trash-alt remove"
+            name="item_4"
+            width="20px"
+            ;
+            height=" 20px"
+            ;xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <path
+              d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"
+            />
+          </svg>
+
+          <img id="articles" src="./p4.png" class="product-img" />
+          <h2 class="product_name" id="item_4_name">Abaya Simple</h2>
+          <h3 class="price"><span id="item_4_price">78</span>DT</h3>
+          <button type="button" class="btn btn-success plus" name="item_4">
+            +
+          </button>
+          <span class="product-quantity" id="item_4_qty">0</span>
+          <button type="button" class="btn btn-danger minus" name="item_4">
+            -
+          </button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            class="heart"
+            fill="grey"
+            name="item_1"
+            width="50px"
+            height="50px"
+          >
+            <path
+              d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"
+            />
+          </svg>
+        </div>
+        <!--item5-->
+
+        <div class="proditem" id="item_5">
+          <svg
+            class="bx bxs-trash-alt remove"
+            name="item_5"
+            width="20px"
+            ;
+            height=" 20px"
+            ;xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <path
+              d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"
+            />
+          </svg>
+          <img id="articles" src="./p5.png" class="product-img" />
+
+          <h2 class="product_name" id="item_5_name">Abaya Large</h2>
+          <h3 class="price"><span id="item_5_price">68</span>DT</h3>
+
+          <button type="button" class="btn btn-success plus" name="item_5">
+            +
+          </button>
+          <span class="product-quantity" id="item_5_qty">0</span>
+          <button type="button" class="btn btn-danger minus" name="item_5">
+            -
+          </button>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            class="heart"
+            fill="grey"
+            name="item_1"
+            width="50px"
+            height="50px"
+          >
+            <path
+              d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"
+            />
+          </svg>
+        </div>
+        <!--item6-->
+
+        <div class="proditem" id="item_6">
+          <svg
+            class="bx bxs-trash-alt remove"
+            name="item_6"
+            width="20px"
+            ;
+            height=" 20px"
+            ;xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <path
+              d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"
+            />
+          </svg>
+
+          <img id="articles" src="./p6.png" class="product-img" />
+          <h2 class="product_name" id="item_6_name">Abaya double fond</h2>
+          <h3 class="price"><span id="item_6_price">119</span>DT</h3>
+          <button type="button" class="btn btn-success plus" name="item_6">
+            +
+          </button>
+          <span class="product-quantity" id="item_6_qty">0</span>
+          <button type="button" class="btn btn-danger minus" name="item_6">
+            -
+          </button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            class="heart"
+            fill="grey"
+            name="item_1"
+            width="50px"
+            height="50px"
+          >
+            <path
+              d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"
+            />
+          </svg>
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+  <!--This is the footer-->
+  <footer class="footer">
+    <hr />
+    <div id="footerlogo">
+      <h2>Livraison disponible sur toute la Tunisie</h2>
+
+      <svg
+        id="truck"
+        width="40px"
+        ;
+        height=" 30px"
+        ;
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 640 512"
+      >
+        <path
+          d="M112 0C85.5 0 64 21.5 64 48V96H16c-8.8 0-16 7.2-16 16s7.2 16 16 16H64 272c8.8 0 16 7.2 16 16s-7.2 16-16 16H64 48c-8.8 0-16 7.2-16 16s7.2 16 16 16H64 240c8.8 0 16 7.2 16 16s-7.2 16-16 16H64 16c-8.8 0-16 7.2-16 16s7.2 16 16 16H64 208c8.8 0 16 7.2 16 16s-7.2 16-16 16H64V416c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H112zM544 237.3V256H416V160h50.7L544 237.3zM160 464c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48zm368-48c0 26.5-21.5 48-48 48s-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48z"
+        />
+      </svg>
+    </div>
+    <h2>Merci pour votre confiance !</h2>
+  </footer>
+</html>
