@@ -153,6 +153,12 @@ h5 {
   color: rgb(83, 51, 83);
 }
 
+#btv
+{
+  background-color: rgb(250, 93, 135);
+  cursor: pointer;
+  margin-left: 20px;
+}
 .footer {
   margin-top: 130px;
   justify-items: center;

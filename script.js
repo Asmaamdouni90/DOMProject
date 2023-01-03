@@ -67,6 +67,8 @@ for (let btr of btnremove) {
     console.log(itemname);
     let name = document.getElementById(itemname + "_name");
     name.parentElement.remove();
+    
+    var total = document.getElementById("total");
     let price = document.getElementById(itemname + "_price").innerHTML;
     total.innerHTML = parseInt(total.innerHTML) - parseInt(price);
   });
